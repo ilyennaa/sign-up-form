@@ -6,27 +6,27 @@
     display: flex;
     width: 100%;
     height: 100%;
+    flex: 1;
 }
 
 .img {
-    width: 100%;
+    width: 35%;
     height: 100vh;
-    background: url('imgs/logo-bg.jpg');
+    background: no-repeat url('imgs/logo-bg.jpg');
     background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
+    background-color: lightcoral;
 }
 
 .form-container {
     background-color: lightblue;
     height: 100vh;
-    width: 100%;
-    /* position: absolute; */
+    width: 75%;
 }
 
 .logo-container {
-    height: 20%;
-    width: 100%;
-    position:absolute;
+    height: 100%;
+    width: 32.5vw;
     background-color: #000;
+    /* position: fixed; */
+    opacity: 0.5;
 }
