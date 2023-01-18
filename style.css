@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.img {
+    width: 100%;
+    height: 100vh;
+    background: url('imgs/logo-bg.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.form-container {
+    background-color: lightblue;
+    height: 100vh;
+    width: 100%;
+    /* position: absolute; */
+}
+
+.logo-container {
+    height: 20%;
+    width: 100%;
+    position:absolute;
+    background-color: #000;
+}
