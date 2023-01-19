@@ -50,7 +50,7 @@
 }
 
 .logo-background {
-    height: 150px;
+    height: 17%;
     width: 100%;
     background-color: #000;
     margin-top: 20%; 
@@ -84,4 +84,17 @@
     width: 15%;
     font-family: 'Roboto', sans-serif;
     font-size: 1.3em;
+}
+
+.row-Div {
+    width: 100%;
+    height: 25%;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    display: flex;
+}
+
+.row-Div>input {
+    height: 40%;
+    margin-right: 10%;
 }
