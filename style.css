@@ -17,7 +17,7 @@
 }
 
 .img {
-    width: 40%;
+    width: 35%;
     height: 100vh;
     background: no-repeat url('imgs/logo-bg.jpg');
     background-size: cover;
@@ -26,7 +26,7 @@
 .form-container {
     background-color: #eee;
     height: 100vh;
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -42,6 +42,7 @@
     height: 33.3%;
     background-color: #fff;
     box-shadow: 0px 5px 5px #ccc;
+    display: flex;
 }
 
 .create-account-container {
@@ -85,28 +86,31 @@
     font-family: 'Roboto', sans-serif;
     font-size: 1.3em;
     background-color: #596D48;
+    border-radius: 10px;
+    border: none;
+    color: white;
 }
 
-.row-Div {
+.left-panel,
+.right-panel {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
     font-family: 'Roboto', sans-serif;
-    width: auto;
-    background-color: lightcoral;
 }
 
-.row-Div>input {
-    font-size: 1.5em;
-    margin-bottom: 2%;
-    margin-right: 2%;
-    margin-left: 2%;
-    width: 25%;
-    border: 0px;
+/* .left-panel {
+    background-color: lightgreen;
 }
 
-.row-Div>input:focus {
-    border: 2px solid lightblue;
-}
+.right-panel {
+    background-color: lightblue;
+} */
 
-.row-Div>label {
-    font-size: 0.9em;
-    font-family: 'Roboto', sans-serif;
+input[type="text"],
+input[type="password"] {
+    width: 60%;
+    margin-bottom: 5%;
 }
